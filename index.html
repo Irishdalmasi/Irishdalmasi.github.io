@@ -3,15 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>My Portfolio!</title>
+
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
+
 <body>
 
+    <!-- HEADER -->
     <header>
         <nav class="navbar">
-            <a href="#home" class="logo">Irish Dalmasi</a>
+            <a href="#home" class="logo">My Portfolio</a>
 
             <button id="menu-btn" class="menu-btn"
                     aria-label="Toggle navigation"
@@ -22,18 +26,25 @@
                 <li><a href="#about">About Me</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#education">Education</a></li>
+                <li><a href="#projects">My Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
+
+        <!-- HOME SECTION -->
         <section id="home" class="hero">
             <div class="hero-text">
                 <p class="eyebrow">Irish Dalmasi</p>
+
                 <h1>Hello, I'm <span id="name">Irish Dalmasi</span></h1>
-                <h2 id="role">Student | Future Web Developer</h2>
+
+                <h2 id="role">Student | Future Networking</h2>
+
                 <p id="intro">Welcome to my personal portfolio!</p>
+
                 <a href="#about" class="btn">About Me</a>
             </div>
 
@@ -42,46 +53,123 @@
                  alt="My profile picture">
         </section>
 
+        <!-- ABOUT ME SECTION -->
         <section id="about" class="section">
             <h2>About Me</h2>
-            <p>I describe myself as curious and open-minded. I love reading because it takes me to different worlds, and I also value rest and balance in life. I am always interested in trying out new things, whether it's a new skill, hobby, or experience. I believe that curiosity is what helps me grow and keep learning.
-My goal is to finish my studies and discover more about what I truly want to do in life.</p>
+
+            <p>
+                I describe myself as curious and open-minded. I love reading
+                because it takes me to different worlds, and I also value rest
+                and balance in life. I am always interested in trying out new
+                things, whether it's a new skill, hobby, or experience.
+                I believe that curiosity is what helps me grow and keep learning.
+                My goal is to finish my studies and discover more about what
+                I truly want to do in life.
+            </p>
+
             <div class="card">
                 <p id="about-text"></p>
             </div>
         </section>
 
+        <!-- SKILLS SECTION -->
         <section id="skills" class="section">
             <h2>My Skills</h2>
-            <p>,Basic Computer Skills, Research Skills, Communication Skills, Willing to be Trained, Curious and Eager to Learn.</p>
-            <div id="skills-list" class="grid"></div>
+
+            <p>Here are my skills and strengths:</p>
+
+            <div class="skills-container">
+
+                <div class="skill-box">
+                    <h3>Basic Computer Skills</h3>
+                </div>
+
+                <div class="skill-box">
+                    <h3>Research Skills</h3>
+                </div>
+
+                <div class="skill-box">
+                    <h3>Communication Skills</h3>
+                </div>
+
+                <div class="skill-box">
+                    <h3>Java </h3>
+                </div>
+
+                <div class="skill-box">
+                    <h3>HTML</h3>
+                </div>
+
+            </div>
         </section>
 
+        <!-- EDUCATION SECTION -->
         <section id="education" class="section">
             <h2>Education</h2>
-            <p> Currently Studying at NVSU</p>
+
+            <p>Currently Studying at NVSU</p>
             <p>Course: BSINTE</p>
+
             <div id="education-list" class="grid"></div>
         </section>
 
+        <!-- MY PROJECTS SECTION -->
+        <section id="projects" class="section">
+            <h2>My Projects</h2>
+
+            <div class="grid">
+
+                <div class="card project-card">
+                    <!-- Add your first project here -->
+                </div>
+
+                <div class="card project-card">
+                    <!-- Add your second project here -->
+                </div>
+
+                <div class="card project-card">
+                    <!-- Add your third project here -->
+                </div>
+
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
         <section id="contact" class="section">
             <h2>Contact Me</h2>
+
             <p>Contact Number: 09390492907</p>
+
             <div class="card contact-card">
                 <p id="contact-message">Feel free to contact me!</p>
-                <p>Email: <a id="email-link" href="#">dalmasiirish@gmail.com</a></p>
-                <p>GitHub:
-                    <a id="github-link" href="https://github.com/"
-                       target="_blank" rel="noopener noreferrer">
-                        Visit my GitHub
+
+                <p>
+                    Email:
+                    <a id="email-link"
+                       href="mailto:dalmasiirish@gmail.com">
+                        dalmasiirish@gmail.com
+                    </a>
+                </p>
+
+                <p>
+                    GitHub Account:
+                    <a id="github-link"
+                       href="https://github.com/irishdalmasi.github.io"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        Visit My GitHub Profile
                     </a>
                 </p>
             </div>
         </section>
+
     </main>
 
+    <!-- FOOTER -->
     <footer>
-        <p id="footer-text">&copy; 2026 Irish Dalmasi | Student Portfolio</p>
+        <p id="footer-text">
+            &copy; 2026 Irish Dalmasi | Student Portfolio
+        </p>
     </footer>
 
 </body>
